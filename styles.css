@@ -130,8 +130,9 @@ header {
     border: 2px solid #fff;
     padding: 2rem;
     border-radius: 50%;
-    width: 2rem;
-    height: 2rem;
+    width: 1rem;
+    height: 1rem;
+    margin-right: .5rem;
 }
 .social-icon-links {
     text-decoration: none;
@@ -143,6 +144,11 @@ header {
 .box-icon:hover {
     background-color: #e4cfcfc2;
 
+}
+.box-icon i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* slide show end here*/
 
@@ -167,6 +173,13 @@ header {
     height: auto;
     border: 2px solid #c0b4b4;
     padding: 0 0rem .8rem;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+.box-img {    
+    object-position: center;
 }
 .box-info {
     display: flex;
