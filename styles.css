@@ -386,7 +386,7 @@ address {
 .copy p {
     text-align: center;
 }
-@media (max-width: 786px) {
+@media (max-width: 768px) {
     .container {
         margin: 0;
         padding: .3rem 0rem;
@@ -418,12 +418,12 @@ address {
     }
     .slideshow .paragraph {
         padding: 5.4rem 0 .2rem;
-        font: 25px;
+        font-size: 21px;
         line-height: 30px;
         letter-spacing: 1px;
     }
     .slideshow .paragraph-2 {
-        font-size: 25px;
+        font-size: 21px;
         line-height: 30px;
         letter-spacing: 1px;
     }
@@ -457,7 +457,7 @@ address {
         font-size: 21px;
     }
     .section-2 {
-        padding: 3rem 0 2rem;
+        padding: 3rem 3rem 2rem;
     }
     .section-2 h2 {
         padding-bottom: 2rem;
@@ -675,13 +675,16 @@ address {
     }
     .slideshow .sec-header {
         position: absolute;
-        top: 10rem;
+        top: 9rem;
         padding: 0rem 0 2rem;
         font-size: 25px;
     }
     .slideshow .paragraph {
         padding: 5.3rem 0 .2rem;
-        font: 20px;
+        font-size: 20px;
+    }
+    .paragraph-2 {
+        font-size: 20px;
     }
     .slideshow-img {
         display: none;
